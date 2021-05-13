@@ -1,7 +1,18 @@
 This project is based on code provided by @blipn : https://github.com/blipn/LiveBoxTV-PC-Remote
-I needed a scriptable version to be able to controle the Orange TV Box using homeBridge : https://github.com/homebridge/homebridge 
+
+
+I needed a scriptable version to be able to controle the Orange TV Box using homeBridge : https://github.com/homebridge/homebridge
+
+
 @blipn has a java/GUI version if you need, this one is scripted in python3.
-a set of shell scripts are provided as well, they act as Interfaces to execute python3 orangeTVRemote.py 192.168.x.x [remote button to trigger]
+
+
+a set of shell scripts are provided as well, they act as Interfaces to execute 
+
+```bash
+python3 orangeTVRemote.py 192.168.x.x [remote button to trigger]
+```
+they are just wrapper to execute the python script with parameter.
 
 key list :
 
