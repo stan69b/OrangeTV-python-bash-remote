@@ -14,6 +14,8 @@ python3 orangeTVRemote.py 192.168.x.x [remote button to trigger]
 ```
 they are just wrapper to execute the python script with parameter.
 
+(By looking at the code, you will see that it is simply a get api call to the orangeTv Box with the right parameter. So don't hesitate to make your own wrapper in the language of your choice ;) )
+
 key list :
 
      116 : ON/OFF
